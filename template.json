@@ -1,0 +1,57 @@
+{
+    "save_dir": "Output_Images/",
+    "save_name": "template",
+    "params": {
+        "background": {
+            "color": "beige",
+            "width": 1080,
+            "height": 1080
+        },
+        "scale": {
+            "dist": "T",
+            "params": [0.15, 0.2, 0.25]
+        },
+        "rotation": {
+            "dist": "U",
+            "params": [0, 360]
+        },
+        "color": {
+            "dist": "U",
+            "args": [
+                [10,255],
+                [10,255],
+                [10,255],
+                [140,170]
+            ]
+        },
+        "centers": {
+            "r": 150,
+            "k": 32
+        }
+    },
+    "find_images": [
+        {"name": "bat-1.gif", "depth": 0.4}
+    ],
+    "excluded_images": [
+        {"name": "bat-1.gif"},
+        {"name": "bat-2.gif"},
+        {"name": "bat-3.gif"},
+        {"name": "bat-4.gif"},
+        {"name": "bat-5.gif"},
+        {"name": "bat-6.gif"},
+        {"name": "bat-7.gif"},
+        {"name": "bat-8.gif"},
+        {"name": "bat-9.gif"},
+        {"name": "bat-10.gif"},
+        {"name": "bat-11.gif"},
+        {"name": "bat-12.gif"},
+        {"name": "bat-13.gif"},
+        {"name": "bat-14.gif"},
+        {"name": "bat-15.gif"},
+        {"name": "bat-16.gif"},
+        {"name": "bat-17.gif"},
+        {"name": "bat-18.gif"},
+        {"name": "bat-19.gif"},
+        {"name": "bat-20.gif"}
+    ]
+}
